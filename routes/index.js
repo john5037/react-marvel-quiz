@@ -2,7 +2,7 @@ const express = require('express');
 const { isEmpty } = require('lodash');
 const router = express.Router();
 
-const puppeteer = require('puppeter');
+//const puppeteer = require('puppeter');
 
 router.get('/users', async (req, res) => {
 
