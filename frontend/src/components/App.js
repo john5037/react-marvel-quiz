@@ -45,7 +45,7 @@ class App extends Component {
   render() {
     return (
       <div className="ui center aligned header">
-        <div className="ui medium header">Marvel React Qui</div>
+        <div className="ui medium header">Marvel React Quiiz</div>
         {this.state.questionBank.length > 0 && 
           this.state.responses < 3 &&
           this.state.questionBank.map(
